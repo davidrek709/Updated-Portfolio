@@ -1,3 +1,5 @@
+var PORT = process.env.PORT || 5000;
+ 
  AOS.init({
   duration: 800,
   easing: 'slide-up',
