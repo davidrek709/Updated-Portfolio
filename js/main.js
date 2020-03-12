@@ -1,4 +1,4 @@
-var PORT = process.env.PORT || 5000;
+// var PORT = process.env.PORT || 5000;
  
  AOS.init({
   duration: 800,
@@ -219,5 +219,5 @@ var PORT = process.env.PORT || 5000;
   slideImage();
   
   
-server.listen(process.env.PORT || 5000)
+server.listen(process.env.PORT || 8000)
 })(jQuery);
